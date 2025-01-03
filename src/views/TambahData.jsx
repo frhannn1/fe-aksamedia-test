@@ -48,6 +48,7 @@ export default function TambahData() {
     };
 
     return (
+        <div className="min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-100 p-2">
         <div className="max-w-md mx-auto mt-10 p-6 bg-white dark:bg-gray-800 shadow-md rounded-lg">
             <h1 className="text-xl font-bold mb-4 text-gray-900 dark:text-gray-100">
                 Tambah Data Karyawan
@@ -147,6 +148,7 @@ export default function TambahData() {
                     Tambah Data
                 </button>
             </form>
+        </div>
         </div>
     );
 }

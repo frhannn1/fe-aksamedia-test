@@ -68,6 +68,9 @@ export default function EditData() {
     if (loading) return <p>Loading...</p>;
 
     return (
+        <>
+
+        <div className="min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-100 p-2">
         <div className="p-6 max-w-4xl mx-auto bg-white rounded-lg shadow-lg dark:bg-gray-800 dark:text-white">
         <h1 className="text-3xl font-semibold text-gray-800 mb-6 dark:text-white">Edit Data Pegawai</h1>
         <form
@@ -151,6 +154,8 @@ export default function EditData() {
             </div>
         </form>
     </div>
+        </div>
+        </>
 
 
     );
